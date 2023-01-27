@@ -58,3 +58,23 @@ h1{
     color: var(--color6);
     font-size: 3rem;
 }
+
+.review-container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.customer-review{
+    border: 0.0625rem solid var(--color6);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: var(--color5);
+    
+
+}
+
+.customer-review:hover{
+    transform: scale(1.05)
+}
