@@ -11,6 +11,7 @@
 }
 
 body{
+    
     margin: 0;
     padding: 0;
     max-width: 80%;
@@ -18,11 +19,42 @@ body{
     background-size: 100% auto;
     background-repeat: no-repeat;
     max-height: 100vh;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
    
 
 }
 
+.current-menu-content{
+    margin-top: 4rem;
+    color: var(--color7);
+}
+
+.buttons-conatiner{
+    display: flex;
+    gap: 1rem;
+}
+
+button{
+    border:none;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    background-color: var(--color1);
+    border-radius: 0.25rem;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: var(--color5);
+    
+}
+
 h1{
     color:var(--color5)
+}
+
+.squid-logo{
+    color: var(--color6);
+    font-size: 3rem;
 }

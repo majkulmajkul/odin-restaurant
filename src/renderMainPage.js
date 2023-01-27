@@ -6,7 +6,8 @@ export default function renderMainPage() {
   const pageContent = document.createElement("div");
   const welcomeText = document.createElement("h1");
 
-  welcomeText.textContent = "Welcome to the Restaurant";
+  welcomeText.innerHTML =
+    "<span class='squid-logo'>くコ:彡</span><br/>Surf and Turf Bistro";
 
   class navButton {
     constructor(name, text, onClick) {
@@ -21,6 +22,7 @@ export default function renderMainPage() {
   ];
 
   const buttonsContainer = document.createElement("div");
+  buttonsContainer.className = "buttons-conatiner";
 
   for (const button of navButtons) {
     const thisButton = document.createElement("button");
