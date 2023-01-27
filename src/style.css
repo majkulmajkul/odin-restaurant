@@ -71,7 +71,7 @@ h1{
     gap: 2rem;
 }
 
-.customer-review{
+.customer-review, .dish-card{
     border: 0.0625rem solid var(--color6);
     border-radius: 0.25rem;
     padding: 1rem;
@@ -83,6 +83,12 @@ h1{
 
 }
 
-.customer-review:hover{
+.customer-review:hover, .dish-card:hover{
     transform: scale(1.05)
+}
+
+.dish-container{
+    display: flex;
+    gap: 2rem;
+
 }
