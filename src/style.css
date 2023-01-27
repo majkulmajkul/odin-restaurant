@@ -1,3 +1,28 @@
-.red{
-    color: red;
+:root{
+    --color0:#001220;
+    --color1:#FA7268;
+    --color2:#C62368;
+    --color3:#F9F5E3;
+    --color4:#CCF5AC;
+    --color5:#FFD166;
+    --color6:#06D6A0;
+    --color7:#EBEBD3;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 80%;
+    background-image: url(./layered-waves-haikei.svg); 
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+   
+
+}
+
+h1{
+    color:var(--color5)
 }
