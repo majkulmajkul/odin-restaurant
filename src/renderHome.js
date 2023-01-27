@@ -1,6 +1,8 @@
 import renderReview from "./renderReview";
+import { makeButtonsGenericExcept } from "./helperFunctions";
 
 export default function renderHome() {
+  makeButtonsGenericExcept("#home-button");
   const currentMenuContent = document.querySelector(".current-menu-content");
   currentMenuContent.innerHTML = "";
   const introductionParagraph = document.createElement("p");

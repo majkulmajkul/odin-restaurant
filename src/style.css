@@ -43,10 +43,16 @@ button{
     font-family: 'Roboto';
     font-size: 1.2rem;
     font-weight: 600;
+    box-shadow: rgba(255, 252, 252, 0.24) 0px 3px 8px;
+}
+
+.selected{
+    background-color: #CCF5AC;
 }
 
 button:hover{
     background-color: var(--color5);
+    transform: scale(1.05)
     
 }
 
@@ -71,6 +77,8 @@ h1{
     padding: 1rem;
     font-size: 0.8rem;
     color: var(--color5);
+    background-color: #001220;
+    box-shadow: rgba(255, 252, 252, 0.24) 0px 3px 8px;
     
 
 }

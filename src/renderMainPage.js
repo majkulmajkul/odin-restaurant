@@ -16,9 +16,9 @@ export default function renderMainPage() {
   }
 
   const navButtons = [
-    new navButton("home-", "Home", renderHome),
-    new navButton("menu", "Menu", renderMenu),
-    new navButton("contact", "Contact", renderContact),
+    new navButton("home-button", "Home", renderHome),
+    new navButton("menu-button", "Menu", renderMenu),
+    new navButton("contact-button", "Contact", renderContact),
   ];
 
   const buttonsContainer = document.createElement("div");
@@ -27,6 +27,7 @@ export default function renderMainPage() {
   for (const button of navButtons) {
     const thisButton = document.createElement("button");
     thisButton.textContent = button.text;
+    thisButton.id = button.name;
     thisButton.addEventListener("click", button.onClick);
     buttonsContainer.appendChild(thisButton);
   }
