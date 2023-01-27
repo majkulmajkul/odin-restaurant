@@ -1,3 +1,5 @@
+import "./style.css";
+
 function renderHome() {
   const currentMenuContent = document.querySelector(".current-menu-content");
   currentMenuContent.innerHTML = "";
@@ -21,6 +23,7 @@ function renderMainPage() {
   const welcomeText = document.createElement("h1");
 
   welcomeText.textContent = "Welcome to the Restaurant";
+  welcomeText.classList.add("red");
 
   class navButton {
     constructor(name, text, onClick) {
