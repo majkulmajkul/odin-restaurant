@@ -35,9 +35,13 @@ export default function renderMainPage() {
   const currentMenuContent = document.createElement("div");
   currentMenuContent.className = "current-menu-content";
 
+  const footer = document.createElement("footer");
+  footer.textContent = "© majkulmajkul - Surf & Turf 2023";
+
   pageContent.appendChild(welcomeText);
   pageContent.appendChild(buttonsContainer);
   pageContent.appendChild(currentMenuContent);
+  document.querySelector("body").appendChild(footer);
 
   return pageContent;
 }
