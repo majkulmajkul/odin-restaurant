@@ -93,7 +93,7 @@ h1{
 
 }
 
-.dish-card-title{
+.dish-card-title, .reviewer-name{
     color: var(--color4);
 }
 
