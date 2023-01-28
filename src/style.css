@@ -47,7 +47,7 @@ button{
 }
 
 .selected{
-    background-color: #CCF5AC;
+    background-color: var(--color4);
 }
 
 button:hover{
@@ -99,4 +99,13 @@ h1{
 
 .dish-card-price{
     color: var(--color7);
+}
+
+.contact-container{
+    color: var(--color5);
+}
+
+footer{
+    position: fixed;
+    bottom: 1rem;
 }
